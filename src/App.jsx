@@ -1,13 +1,14 @@
 import "./App.css";
+import Header from "./Components/Header";
 
 function App() {
   return (
     <>
-      <header>1</header>
-      <>2</>
-      <>3</>
-      <>4</>
-      <footer>5</footer>
+      <Header />
+      <div>Intro</div>
+      <div>Projects</div>
+      <div>Skills</div>
+      <footer>Contact</footer>
     </>
   );
 }

@@ -1,0 +1,7 @@
+.nav-bar,
+.link-bar {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+}
