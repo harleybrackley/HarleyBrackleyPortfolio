@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-- [@harleybrackley.com](https://www.harleybrackley.com)
+- [harleybrackley.com](https://www.harleybrackley.com)
 
 ## Stacks
 
