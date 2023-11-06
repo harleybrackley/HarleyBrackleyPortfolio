@@ -2,10 +2,11 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <section>
-      <h1>Harley Brackley</h1>
+    <section className="header-wrapper">
+      <h1>HB</h1>
       <ul className="nav-bar">
         <li>Home</li>
+        <li>Intro</li>
         <li>About</li>
         <li>Skills</li>
         <li>Projects</li>
