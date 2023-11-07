@@ -1,19 +1,18 @@
 import "./App.css";
 import Header from "./Components/Header";
 import Intro from "./Components/Intro";
-import About from "./Components/About";
-import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
+import Skills from "./Components/Skills";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
     <>
       <Header />
       <Intro />
-      <About />
       <Projects />
       <Skills />
-      <footer>Contact</footer>
+      <Contact />
     </>
   );
 }

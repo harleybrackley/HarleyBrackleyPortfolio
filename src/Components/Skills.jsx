@@ -15,7 +15,7 @@ import Cloudinary from "../assets/Cloudinary.png";
 export default function Skills() {
   return (
     <>
-      <section className="skills-wrapper-1">
+      <section className="skills-wrapper">
         <section>
           <img src={JavaScript} alt="JavaScript" />
           <p>JavaScript</p>
@@ -45,9 +45,7 @@ export default function Skills() {
           <img src={Cloudinary} alt="Cloudinary" />
           <p>Cloudinary</p>
         </section>
-      </section>
 
-      <section className="skills-wrapper-2">
         <section>
           <img src={MUI} alt="MUI" />
           <p>MUI</p>

@@ -1,14 +1,8 @@
-.skills-wrapper-1 {
+.skills-wrapper {
   display: flex;
+  justify-content: space-between;
 }
-.skills-wrapper-2 {
-  display: flex;
-}
-.skills-wrapper-1 img {
-  height: 100px;
-  width: 100px;
-}
-.skills-wrapper-2 img {
+.skills-wrapper img {
   height: 100px;
   width: 100px;
 }

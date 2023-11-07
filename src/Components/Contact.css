@@ -1,0 +1,11 @@
+.link-bar {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link-bar img {
+  height: 25px;
+  width: 25px;
+}

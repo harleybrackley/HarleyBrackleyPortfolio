@@ -1,0 +1,22 @@
+.profile-pic {
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+}
+
+.intro-wrapper {
+  display: flex;
+}
+
+.section-wrapper {
+  display: grid;
+}
+
+.intro-section-1 {
+  font-size: 24px;
+}
+
+.intro-section-2 {
+  text-align: center;
+  font-size: 18px;
+}
