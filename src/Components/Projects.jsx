@@ -17,6 +17,7 @@ import Cloudinary from "../assets/Cloudinary.png";
 export default function Projects() {
   return (
     <div className="project-wrapper">
+      <div className="project-split"></div>
       <section className="project-1-wrapper">
         <h2>Project 1</h2>
         <div className="project-details">
@@ -37,7 +38,7 @@ export default function Projects() {
           </aside>
         </div>
       </section>
-
+      <div className="project-split"></div>
       <section className="project-2-wrapper">
         <h2>Project 2</h2>
         <div className="project-details">
@@ -61,7 +62,7 @@ export default function Projects() {
           </aside>
         </div>
       </section>
-
+      <div className="project-split"></div>
       <section className="project-3-wrapper">
         <h2>Project 3</h2>
         <div className="project-details">
@@ -88,7 +89,7 @@ export default function Projects() {
           </aside>
         </div>
       </section>
-
+      <div className="project-split"></div>
       <section className="project-4-wrapper">
         <h2>Project 4</h2>
         <div className="project-details">
@@ -107,6 +108,7 @@ export default function Projects() {
           </aside>
         </div>
       </section>
+      <div className="project-split"></div>
     </div>
   );
 }

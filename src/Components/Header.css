@@ -2,5 +2,21 @@
   list-style: none;
   text-decoration: none;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
+  margin: 0 0 1% 70%;
+}
+
+.header-wrapper {
+  background-color: #0f1fad;
+}
+
+.nav-bar-links {
+  background-color: #87919c;
+  border-radius: 10%;
+}
+
+.HB {
+  color: white;
+  font-size: 36px;
+  margin: 10px;
 }

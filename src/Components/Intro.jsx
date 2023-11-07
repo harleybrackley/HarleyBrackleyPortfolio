@@ -22,8 +22,9 @@ export default function Intro() {
           </p>
           <p>
             I have recently completed General Assembly’s Software Engineering
-            Immersive Course, a 500+ hour bootcamp where I have developed a
-            strong understanding of both frontend and backend technologies.
+            Immersive Course, a 12 week full time bootcamp where I have
+            developed a strong understanding of both frontend and backend
+            technologies.
           </p>
           <p>
             Through my experience as a Surgical Instrument Technician, I bring
