@@ -1,0 +1,45 @@
+.project-wrapper img {
+  height: 300px;
+  width: 400px;
+}
+
+.project-stacks img {
+  height: 50px;
+  width: 50px;
+}
+
+.project-details {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.project-1-wrapper {
+  width: 80%;
+  background-color: blanchedalmond;
+  text-align: center;
+  margin: auto;
+}
+.project-2-wrapper {
+  width: 80%;
+  background-color: cadetblue;
+  text-align: center;
+  margin: auto;
+}
+.project-3-wrapper {
+  width: 80%;
+  background-color: chartreuse;
+  text-align: center;
+  margin: auto;
+}
+.project-4-wrapper {
+  width: 80%;
+  background-color: mistyrose;
+  text-align: center;
+  margin: auto;
+}
+/* 
+.project-wrapper {
+  display: flex;
+} */

@@ -1,0 +1,14 @@
+.skills-wrapper-1 {
+  display: flex;
+}
+.skills-wrapper-2 {
+  display: flex;
+}
+.skills-wrapper-1 img {
+  height: 100px;
+  width: 100px;
+}
+.skills-wrapper-2 img {
+  height: 100px;
+  width: 100px;
+}

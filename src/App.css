@@ -2,10 +2,7 @@
   font-family: "Roboto", sans-serif;
   border: solid 1px black;
 }
-/* 
-body {
-  background: linear-gradient(in hsl longer hue 45deg, red 0 0);
-} */
+
 body {
   background-color: #09c7fb;
   background-image: linear-gradient(315deg, #09c7fb 0%, #93fb9d 74%);
