@@ -1,10 +1,27 @@
 import "./Contact.css";
 import Github from "../assets/Github.png";
 import LinkedIn from "../assets/LinkedIn.png";
+import Email from "../assets/Email.png";
 
 export default function Contact() {
   return (
-    <section>
+    <section className="contact-wrapper">
+      <article className="link-bar">
+        <ul>
+          <li className="list-items">
+            <img src={Email} />
+            <p>harleybrackley@gmail.com</p>
+          </li>
+          <li className="list-items">
+            <img src={LinkedIn} />
+            <a href="https://www.linkedin.com/in/harleybrackley/">LinkedIn</a>
+          </li>
+          <li className="list-items">
+            <img src={Github} />
+            <a href="https://github.com/harleybrackley">Github</a>
+          </li>
+        </ul>
+      </article>
       <article>
         <form>
           <div className="name-email">
@@ -45,18 +62,6 @@ export default function Contact() {
             <button type="submit">Send Message</button>
           </div>
         </form>
-      </article>
-      <article>
-        <ul className="link-bar">
-          <li>
-            <a href="https://github.com/harleybrackley">Github</a>
-            <img src={Github} />
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/harleybrackley/">LinkedIn</a>
-            <img src={LinkedIn} />
-          </li>
-        </ul>
       </article>
     </section>
   );

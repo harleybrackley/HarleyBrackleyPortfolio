@@ -13,6 +13,7 @@ import MongoDB from "../assets/MongoDB.png";
 import NodeJs from "../assets/NodeJs.png";
 import ReactJs from "../assets/ReactJs.png";
 import Cloudinary from "../assets/Cloudinary.png";
+import Portfolio from "../assets/Portfolio_Screenshot.png";
 
 export default function Projects() {
   return (
@@ -128,7 +129,7 @@ export default function Projects() {
       <article className="project-4-wrapper">
         <h2>Project 4</h2>
         <div className="project-details">
-          <img src={TicTacToe} />
+          <img src={Portfolio} />
 
           <aside className="project-aside">
             <section className="project-links">
@@ -148,7 +149,6 @@ export default function Projects() {
               <img src={CSS} alt="CSS" />
               <img src={JavaScript} alt="JavaScript" />
               <img src={ReactJs} alt="ReactJs" />
-              <img src={MUI} alt="MUI" />
               <img src={Github} alt="Github" />
             </div>
           </aside>

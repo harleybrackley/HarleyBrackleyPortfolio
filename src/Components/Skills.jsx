@@ -15,7 +15,7 @@ import Cloudinary from "../assets/Cloudinary.png";
 export default function Skills() {
   return (
     <>
-      <h1 className="skill-headings">Front End Skills</h1>
+      <h1 className="skill-headings">Tech Skills</h1>
       <section className="front-end-wrapper">
         <article>
           <img src={HTML} alt="HTML" />
@@ -31,17 +31,16 @@ export default function Skills() {
           <img src={JavaScript} alt="JavaScript" />
           <p>JavaScript</p>
         </article>
+        <article>
+          <img src={NodeJs} alt="NodeJs" />
+          <p>NodeJs</p>
+        </article>
 
         <article>
           <img src={ReactJs} alt="ReactJs" />
           <p>ReactJs</p>
         </article>
-        <article>
-          <img src={NodeJs} alt="NodeJs" />
-          <p>NodeJs</p>
-        </article>
       </section>
-      <h1 className="skill-headings">Back End Skills</h1>
       <section className="back-end-wrapper">
         <article>
           <img src={ExpressJs} alt="ExpressJs" />

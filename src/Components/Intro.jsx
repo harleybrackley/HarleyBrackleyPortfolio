@@ -23,7 +23,7 @@ export default function Intro() {
           <p>
             I have recently completed General Assembly’s Software Engineering
             Immersive Course, a 12 week full time bootcamp where I have
-            developed a strong understanding of both frontend and backend
+            developed a strong understanding of both front end and back end
             technologies.
           </p>
           <p>
