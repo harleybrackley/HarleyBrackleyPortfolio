@@ -7,15 +7,17 @@
 .project-wrapper {
   display: grid;
   justify-content: space-between;
+  gap: 30px;
 }
 
-.project-aside p {
-  padding: 10% 0 10% 0;
-}
+/* .project-aside p {
+  padding: 10px 0 10px 0;
+} */
 
 .project-stacks img {
   height: 50px;
   width: 50px;
+  padding: 0 2px 0 2px;
 }
 
 .project-details {
@@ -35,6 +37,7 @@
   text-wrap: wrap;
   align-items: center;
   flex: 1;
+  gap: 10px;
 }
 
 .project-1-wrapper {
@@ -75,6 +78,16 @@
   display: flex;
 } */
 
-.project-split {
-  margin: 30px 0 30px 0;
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.link-divider {
+  padding: 0 10px 0 10px;
+}
+
+.project-shifter {
+  margin: 5px 0 0 0;
 }

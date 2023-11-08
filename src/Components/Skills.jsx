@@ -15,61 +15,58 @@ import Cloudinary from "../assets/Cloudinary.png";
 export default function Skills() {
   return (
     <>
-      <section className="skills-wrapper">
-        <section>
-          <img src={JavaScript} alt="JavaScript" />
-          <p>JavaScript</p>
-        </section>
-
-        <section>
-          <img src={CSS} alt="CSS" />
-          <p>CSS</p>
-        </section>
-
-        <section>
-          <img src={ExpressJs} alt="ExpressJs" />
-          <p>ExpressJs</p>
-        </section>
-
-        <section>
-          <img src={Github} alt="Github" />
-          <p>Github</p>
-        </section>
-
-        <section>
+      <h1 className="skill-headings">Front End Skills</h1>
+      <section className="front-end-wrapper">
+        <article>
           <img src={HTML} alt="HTML" />
           <p>HTML</p>
-        </section>
+        </article>
 
-        <section>
-          <img src={Cloudinary} alt="Cloudinary" />
-          <p>Cloudinary</p>
-        </section>
+        <article>
+          <img src={CSS} alt="CSS" />
+          <p>CSS</p>
+        </article>
 
-        <section>
-          <img src={MUI} alt="MUI" />
-          <p>MUI</p>
-        </section>
+        <article>
+          <img src={JavaScript} alt="JavaScript" />
+          <p>JavaScript</p>
+        </article>
 
-        <section>
-          <img src={PostgreSQL} alt="PostgreSQL" />
-          <p>PostgreSQL</p>
-        </section>
-
-        <section>
-          <img src={MongoDB} alt="MongoDB" />
-          <p>MongoDB</p>
-        </section>
-
-        <section>
-          <img src={NodeJs} alt="NodeJs" />
-          <p>NodeJs</p>
-        </section>
-
-        <section>
+        <article>
           <img src={ReactJs} alt="ReactJs" />
           <p>ReactJs</p>
-        </section>
+        </article>
+        <article>
+          <img src={NodeJs} alt="NodeJs" />
+          <p>NodeJs</p>
+        </article>
+      </section>
+      <h1 className="skill-headings">Back End Skills</h1>
+      <section className="back-end-wrapper">
+        <article>
+          <img src={ExpressJs} alt="ExpressJs" />
+          <p>ExpressJs</p>
+        </article>
+
+        <article>
+          <img src={PostgreSQL} alt="PostgreSQL" />
+          <p>PostgreSQL</p>
+        </article>
+
+        <article>
+          <img src={MongoDB} alt="MongoDB" />
+          <p>MongoDB</p>
+        </article>
+
+        <article>
+          <img src={Cloudinary} alt="Cloudinary" />
+          <p>Cloudinary</p>
+        </article>
+
+        <article>
+          <img src={Github} alt="Github" />
+          <p>Github</p>
+        </article>
       </section>
     </>
   );

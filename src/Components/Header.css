@@ -4,15 +4,21 @@
   display: flex;
   justify-content: space-evenly;
   margin: 0 0 1% 70%;
+  color: White;
 }
 
 .header-wrapper {
   background-color: #0f1fad;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  padding-bottom: 10px;
 }
 
 .nav-bar-links {
   background-color: #87919c;
-  border-radius: 10%;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .HB {

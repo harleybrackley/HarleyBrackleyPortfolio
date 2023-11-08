@@ -17,13 +17,26 @@ import Cloudinary from "../assets/Cloudinary.png";
 export default function Projects() {
   return (
     <div className="project-wrapper">
-      <div className="project-split"></div>
-      <section className="project-1-wrapper">
+      <div className="project-shifter"></div>
+      <article className="project-1-wrapper">
         <h2>Project 1</h2>
         <div className="project-details">
           <img src={TicTacToe} />
 
           <aside className="project-aside">
+            <section className="project-links">
+              <p>
+                <a href="https://github.com/harleybrackley/Project-One-Repo">
+                  Github
+                </a>
+              </p>
+              <div className="link-divider"></div>
+              <p>
+                <a href="https://harleybrackley.github.io/Project-One-Repo/">
+                  Demo
+                </a>
+              </p>
+            </section>
             <p>
               A simple tic-tac-toe game where 2 users can play tic-tac-toe
               against each other. Features include win counters, a draw counter,
@@ -37,14 +50,23 @@ export default function Projects() {
             </div>
           </aside>
         </div>
-      </section>
-      <div className="project-split"></div>
-      <section className="project-2-wrapper">
+      </article>
+
+      <article className="project-2-wrapper">
         <h2>Project 2</h2>
         <div className="project-details">
           <img src={FuzzFeed} />
 
           <aside className="project-aside">
+            <section className="project-links">
+              <p>
+                <a href="https://github.com/harleybrackley/FuzzFeed">Github</a>
+              </p>
+              <div className="link-divider"></div>
+              <p>
+                <a href="https://fuzzfeed.onrender.com/">Demo</a>
+              </p>
+            </section>
             <p>
               A full stack CRUD app where users can share their pets. Features
               include sign-up, add pet profiles, edit pet profiles, and image
@@ -61,14 +83,27 @@ export default function Projects() {
             </div>
           </aside>
         </div>
-      </section>
-      <div className="project-split"></div>
-      <section className="project-3-wrapper">
+      </article>
+
+      <article className="project-3-wrapper">
         <h2>Project 3</h2>
         <div className="project-details">
           <img src={RefillRouter} />
 
           <aside className="project-aside">
+            <section className="project-links">
+              <p>
+                <a href="https://github.com/harleybrackley/refill-router">
+                  Github
+                </a>
+              </p>
+              <div className="link-divider"></div>
+              <p>
+                <a href="https://github.com/harleybrackley/refill-router">
+                  Demo - Not currently deployed sorry
+                </a>
+              </p>
+            </section>
             <p>
               A single page application using our own RESTful JSON API and the
               GoogleMaps API and a Futures API to display petrol station
@@ -88,14 +123,25 @@ export default function Projects() {
             </div>
           </aside>
         </div>
-      </section>
-      <div className="project-split"></div>
-      <section className="project-4-wrapper">
+      </article>
+
+      <article className="project-4-wrapper">
         <h2>Project 4</h2>
         <div className="project-details">
           <img src={TicTacToe} />
 
           <aside className="project-aside">
+            <section className="project-links">
+              <p>
+                <a href="https://github.com/harleybrackley/HarleyBrackleyPortfolio">
+                  Github
+                </a>
+              </p>
+              <div className="link-divider"></div>
+              <p>
+                <a href="https://www.harleybrackley.com">Demo</a>
+              </p>
+            </section>
             <p>This! My own personal portfolio made using ReactJs.</p>
             <div className="project-stacks">
               <img src={HTML} alt="HTML" />
@@ -107,8 +153,7 @@ export default function Projects() {
             </div>
           </aside>
         </div>
-      </section>
-      <div className="project-split"></div>
+      </article>
     </div>
   );
 }

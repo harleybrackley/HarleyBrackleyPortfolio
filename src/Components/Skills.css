@@ -1,8 +1,29 @@
-.skills-wrapper {
+.front-end-wrapper {
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
+  text-align: center;
+  color: white;
 }
-.skills-wrapper img {
+.back-end-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+}
+.front-end-wrapper img {
   height: 100px;
   width: 100px;
+  border-radius: 5px;
+}
+.back-end-wrapper img {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.skill-headings {
+  text-align: center;
+  color: white;
 }
