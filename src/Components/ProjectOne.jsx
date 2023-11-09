@@ -28,7 +28,7 @@ export default function ProjectOne() {
       <div className={`flip-card ${isFlipped ? "flipped" : ""}`}>
         <div className="flip-card-front">
           <div className="card-content">
-            <h2>Tic-Tac-Toe!</h2>
+            <h2>Tic-Tac-Toe</h2>
 
             <img src={TicTacToe} />
           </div>
@@ -36,6 +36,11 @@ export default function ProjectOne() {
 
         <div className="flip-card-back">
           <div className="card-content">
+            <p>
+              A simple tic-tac-toe game where 2 users can play tic-tac-toe
+              against each other. Features include win counters, a draw counter,
+              and a total round counter.
+            </p>
             <section className="project-links">
               <p>
                 <a href="https://github.com/harleybrackley/Project-One-Repo">
@@ -49,11 +54,6 @@ export default function ProjectOne() {
                 </a>
               </p>
             </section>
-            <p>
-              A simple tic-tac-toe game where 2 users can play tic-tac-toe
-              against each other. Features include win counters, a draw counter,
-              and a total round counter.
-            </p>
             <div className="project-stacks">
               <img src={HTML} alt="HTML" />
               <img src={CSS} alt="CSS" />

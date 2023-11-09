@@ -36,6 +36,14 @@ export default function ProjectThree() {
 
         <div className="flip-card-back">
           <div className="card-content">
+            <p>
+              A single page application using our own RESTful JSON API and the
+              GoogleMaps API and a Futures API to display petrol station
+              locations across Australia. Features include petrol station stats,
+              a spotlight highlighting a particular petrol station, map center
+              address information, a clock, a live Oil price display, and an
+              address search function.
+            </p>
             <section className="project-links">
               <p>
                 <a href="https://github.com/harleybrackley/refill-router">
@@ -49,14 +57,6 @@ export default function ProjectThree() {
                 </a>
               </p>
             </section>
-            <p>
-              A single page application using our own RESTful JSON API and the
-              GoogleMaps API and a Futures API to display petrol station
-              locations across Australia. Features include petrol station stats,
-              a spotlight highlighting a particular petrol station, map center
-              address information, a clock, a live Oil price display, and an
-              address search function.
-            </p>
             <div className="project-stacks">
               <img src={HTML} alt="HTML" />
               <img src={CSS} alt="CSS" />

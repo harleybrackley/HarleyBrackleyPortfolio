@@ -36,6 +36,11 @@ export default function ProjectTne() {
 
         <div className="flip-card-back">
           <div className="card-content">
+            <p>
+              A full stack CRUD app where users can share their pets. Features
+              include sign-up, add pet profiles, edit pet profiles, and image
+              uploading.
+            </p>
             <section className="project-links">
               <p>
                 <a href="https://github.com/harleybrackley/FuzzFeed">Github</a>
@@ -45,11 +50,6 @@ export default function ProjectTne() {
                 <a href="https://fuzzfeed.onrender.com/">Demo</a>
               </p>
             </section>
-            <p>
-              A full stack CRUD app where users can share their pets. Features
-              include sign-up, add pet profiles, edit pet profiles, and image
-              uploading.
-            </p>
             <div className="project-stacks">
               <img src={HTML} alt="HTML" />
               <img src={CSS} alt="CSS" />

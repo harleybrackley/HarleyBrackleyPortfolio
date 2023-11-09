@@ -28,7 +28,7 @@ export default function ProjectFour() {
       <div className={`flip-card ${isFlipped ? "flipped" : ""}`}>
         <div className="flip-card-front">
           <div className="card-content">
-            <h2>My digital Portfolio</h2>
+            <h2>My Digital Portfolio</h2>
 
             <img src={Portfolio} />
           </div>
@@ -36,6 +36,7 @@ export default function ProjectFour() {
 
         <div className="flip-card-back">
           <div className="card-content">
+            <p>This! My own personal portfolio made using ReactJs.</p>
             <section className="project-links">
               <p>
                 <a href="https://github.com/harleybrackley/HarleyBrackleyPortfolio">
@@ -47,7 +48,6 @@ export default function ProjectFour() {
                 <a href="https://www.harleybrackley.com">Demo</a>
               </p>
             </section>
-            <p>This! My own personal portfolio made using ReactJs.</p>
             <div className="project-stacks">
               <img src={HTML} alt="HTML" />
               <img src={CSS} alt="CSS" />
