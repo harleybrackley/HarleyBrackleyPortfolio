@@ -27,10 +27,12 @@
 }
 .name-email {
   display: flex;
+  background-color: rgb(215, 248, 252);
 }
 .contact-input {
   display: flex;
   flex-direction: column;
+  background-color: rgb(215, 248, 252);
 }
 .link-bar ul {
   margin: 0;
