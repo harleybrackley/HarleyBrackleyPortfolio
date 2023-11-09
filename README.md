@@ -4,7 +4,7 @@ Welcome to my digital portfolio! This project is a showcase of my skills, projec
 
 ## Live Demo
 
-- **[harleybrackley.com]**(https://www.harleybrackley.surge.sh)
+- [harleybrackley.com](https://www.harleybrackley.surge.sh)
 
 ## Features
 
@@ -12,17 +12,26 @@ Welcome to my digital portfolio! This project is a showcase of my skills, projec
 - **Skills and Technologies:** A section highlighting my skills and the technologies I am proficient in.
 - **Contact Information:** Connect with me through various social media platforms or email.
 
-## Screenshots
+## The most exciting part
+
+- Project flip cards
+- SPA using react states
+- Diving deeper into CSS
+
+## Screenshot
 
 ![Intro Screenshot](/src/assets/Portfolio_Screenshot.png)
-![Projects Screenshot](/src/assets/Portfolio_Screenshot2.png)
 
 ## Future Plans
 
 I am actively working on enhancing this portfolio. Some upcoming features include:
 
-- **Embedded Resume:**
+- **Embedded Resume**
 - **Interests & Hobbies Section**
 - **Back-end to enable comments on Interests & Hobbies**
 
-## Stay tuned for exciting updates!
+### Stay tuned for more exciting updates!
+
+# Contact me!
+
+- I am currently actively looking for front end, back end or full-stack developer roles, if you think I might be a good fit for a role you have, please dont hesitate to contact me via Email or LinkedIn
