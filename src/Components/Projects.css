@@ -1,18 +1,14 @@
 .project-wrapper img {
-  height: 300px;
-  width: 400px;
+  width: 100%;
   border-radius: 5px;
 }
 
 .project-wrapper {
+  margin-top: 10px;
   display: grid;
-  justify-content: space-between;
-  gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 10px;
 }
-
-/* .project-aside p {
-  padding: 10px 0 10px 0;
-} */
 
 .project-stacks img {
   height: 50px;
@@ -20,63 +16,19 @@
   padding: 0 2px 0 2px;
 }
 
-.project-details {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  gap: 25px;
-  padding: 20px;
-}
-
-.project-aside {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0px 100px 0px 100px;
-  text-wrap: wrap;
-  align-items: center;
-  flex: 1;
-  gap: 10px;
-}
-
-.project-1-wrapper {
-  width: 90%;
-  background-color: #e79087;
-  background-image: linear-gradient(315deg, #e79087 0%, #fcd181 74%);
+.project-item-wrapper {
+  /* width: calc(50% - 10px); */
+  background-color: #d4ecfc;
+  color: #0b192f;
+  border: 5px solid #0b192f;
   text-align: center;
-  margin: auto;
-  padding: 20px 0 20px 0;
+  /* margin: auto; */
   border-radius: 20px;
+  cursor: pointer;
 }
-.project-2-wrapper {
-  width: 90%;
-  background-color: #8ae9b3;
-  background-image: linear-gradient(315deg, #8ae9b3 0%, #c8d6e5 74%);
-  text-align: center;
-  margin: auto;
-  border-radius: 20px;
+.project-item-wrapper:hover {
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
 }
-.project-3-wrapper {
-  width: 90%;
-  background-color: #f368e0;
-  background-image: linear-gradient(315deg, #f368e0 0%, #d3d3d3 74%);
-  text-align: center;
-  margin: auto;
-  border-radius: 20px;
-}
-.project-4-wrapper {
-  width: 90%;
-  background-color: #378b29;
-  background-image: linear-gradient(315deg, #378b29 0%, #ffffff 74%);
-  text-align: center;
-  margin: auto;
-  border-radius: 20px;
-}
-/* 
-.project-wrapper {
-  display: flex;
-} */
 
 .project-links {
   display: flex;
@@ -90,4 +42,63 @@
 
 .project-shifter {
   margin: 5px 0 0 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.flip-card {
+  perspective: 1000px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  margin: auto;
+}
+
+.flip-card.flipped {
+  transform: rotateY(180deg);
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front,
+.flip-card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flip-button {
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .project-1-wrapper .project-2-wrapper .project-3-wrapper .project-4-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 }
